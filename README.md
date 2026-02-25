@@ -1,13 +1,7 @@
 # Land Use Classification – Building & Road Mapping
 
-## 📌 Project Description
-This project performs land use classification on an aerial image using OpenCV.
-
-The image is segmented into:
-- Vegetation
-- Water
-- Roads
-- Buildings
+## 📌 Objective
+To classify an aerial image into vegetation, water, roads, and buildings using OpenCV.
 
 ## ⚙️ Techniques Used
 - HSV color segmentation
@@ -17,11 +11,7 @@ The image is segmented into:
 - Area percentage calculation
 
 ## ▶️ How to Run
-
-1. Install dependencies:
 pip install -r requirements.txt
-
-2. Run the project:
 python land_use.py
 
 ## 📊 Output
@@ -29,6 +19,3 @@ python land_use.py
 - Segmented image
 - Pie chart
 - CSV file with land percentage
-
-## 📁 Dataset
-Single aerial image used for analysis.
