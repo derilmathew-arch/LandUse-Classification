@@ -1,21 +1,34 @@
-# Land Use Classification – EuroSAT
+# Land Use Classification – Building & Road Mapping
 
-## Objective
-To classify satellite images into vegetation, water, roads, and buildings using OpenCV.
+## 📌 Project Description
+This project performs land use classification on an aerial image using OpenCV.
 
-## Dataset
-EuroSAT Kaggle Dataset
+The image is segmented into:
+- Vegetation
+- Water
+- Roads
+- Buildings
 
-## Method
+## ⚙️ Techniques Used
 - HSV color segmentation
+- Thresholding
+- Morphological operations
 - Contour extraction
 - Area percentage calculation
 
-## Output
-- Segmented images
-- Pie charts
-- CSV result file
+## ▶️ How to Run
 
-## Run
+1. Install dependencies:
 pip install -r requirements.txt
-python land_use_eurosat.py
+
+2. Run the project:
+python land_use.py
+
+## 📊 Output
+- Land cover masks
+- Segmented image
+- Pie chart
+- CSV file with land percentage
+
+## 📁 Dataset
+Single aerial image used for analysis.
